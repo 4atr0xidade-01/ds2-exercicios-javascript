@@ -53,3 +53,15 @@ Foi trocado `console.log` por `Console.log`, colocando a letra C em maiúsculo.
 A mensagem apresentada foi `Uncaught ReferenceError: Console is not defined`.
 
 O erro aconteceu porque o JavaScript diferencia letras maiúsculas de minúsculas. O correto é usar `console.log` com o c minúsculo.
+
+## Exercício 4
+
+### Por que 20 + 5 pode resultar em 205?
+
+Quando usamos `prompt()`, o valor digitado é recebido como texto (string), mesmo que o usuário digite um número.
+
+Por exemplo, se o usuário digitar 20, o JavaScript recebe `"20"`. Então, ao fazer `"20" + 5`, o JavaScript entende que precisa juntar os valores, resultando em `"205"`.
+
+Por isso precisamos converter o valor para número usando `Number()` antes de fazer a soma.
+
+Assim, `Number("20") + 5` resulta em `25`.
