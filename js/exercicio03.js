@@ -5,7 +5,7 @@ const curso = prompt("Qual é o seu curso?");
 const cidade = prompt("Qual é a sua cidade?");
 
 // Solução 1
-//console.log("Olá, meu nome é " + nome + ", tenho " + idade + " anos, moro em " + cidade + " e estou cursando " + curso + ".");
+console.log("Olá, meu nome é " + nome + ", tenho " + idade + " anos, moro em " + cidade + " e estou cursando " + curso + ".");
 
 // Solução 2
 console.log(`Olá, meu nome é ${nome}, tenho ${idade} anos, moro em ${cidade} e estou cursando ${curso}.`);
