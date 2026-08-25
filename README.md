@@ -56,7 +56,7 @@ O erro aconteceu porque o JavaScript diferencia letras maiúsculas de minúscula
 
 ## Exercício 4
 
-### Por que 20 + 5 pode resultar em 205?
+**Por que 20 + 5 pode resultar em 205?**
 
 Quando usamos `prompt()`, o valor digitado é recebido como texto (string), mesmo que o usuário digite um número.
 
