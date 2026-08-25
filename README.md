@@ -41,3 +41,15 @@ O cálculo pode ser feito no navegador para mostrar o resultado rapidamente ao u
 
 **6 Controlar uma sessão de usuário — Server-side.**
 O servidor pode controlar se o usuário está logado e quais páginas ou informações ele pode acessar. Isso é importante para manter o controle e a segurança do sistema.
+
+
+
+## Exercício 1
+
+**Erro proposital**
+
+Foi trocado `console.log` por `Console.log`, colocando a letra C em maiúsculo.
+
+A mensagem apresentada foi `Uncaught ReferenceError: Console is not defined`.
+
+O erro aconteceu porque o JavaScript diferencia letras maiúsculas de minúsculas. O correto é usar `console.log` com o c minúsculo.
